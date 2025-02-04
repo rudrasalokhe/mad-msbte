@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        String[] suggestions = {"Apple", "kiwi", "Banana", "WaterMelon", "Custard Apple", "Pomogranate","Mango", };
+        String[] suggestions = {"MAD", "PHP", "PWP", "MGM", "CSS"};
         AutoCompleteTextView autoCompleteTextView = findViewById(R.id.autoCompleteTextView);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(
                 this, android.R.layout.simple_dropdown_item_1line, suggestions);
